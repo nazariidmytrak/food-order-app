@@ -1,0 +1,25 @@
+.summary {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 0 5%;
+  position: relative;
+  margin: -10rem 0rem 3rem 0rem;
+}
+
+.summary__content {
+  border-radius: 20px;
+  background-color: #383838;
+  padding: 2% 5%;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.summary__title {
+  margin-top: 0;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.summary__text {
+  margin-bottom: 0.7rem;
+}

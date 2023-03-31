@@ -1,0 +1,29 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.meal:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.meal__title {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.meal__description {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.meal__price {
+  margin-top: 0;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}

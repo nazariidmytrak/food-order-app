@@ -1,0 +1,37 @@
+.meals {
+  animation: meals-appear 1s ease-out forwards;
+  margin-bottom: 3rem;
+  padding: 0 10%;
+}
+
+.meals__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+  padding: 1.5rem;
+}
+
+.meals--loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.meals--error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
